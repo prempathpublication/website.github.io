@@ -428,7 +428,7 @@ https://templatemo.com/tm-588-ebook-landing
                     <div class="row">
 
                         <div class="col-lg-5 col-12 mx-auto">
-                            <form class="custom-form ebook-download-form bg-white shadow" action="#" method="post" role="form">
+                            <!--<form class="custom-form ebook-download-form bg-white shadow" action="#" method="post" role="form">
                                 <div class="text-center mb-5">
                                     <h2 class="mb-1"></h2>
                                 </div>
@@ -454,7 +454,43 @@ https://templatemo.com/tm-588-ebook-landing
                                         <button type="submit" class="form-control">submit</button>
                                     </div>
                                 </div>
-                            </form>
+                            </form>-->
+                            <form class="custom-form ebook-download-form bg-white shadow" action="https://api.web3forms.com/submit" method="POST" role="form">
+                                <!-- Replace with your Access Key -->
+                                <input type="hidden" name="access_key" value="879dab2b-fcac-4a93-92d4-7cdca0cef1a4">
+
+                                    <div class="text-center mb-5">
+                                        <h2 class="mb-1"></h2>
+                                    </div>
+
+                                <div class="ebook-download-form-body">
+                                    <div class="input-group mb-4">
+                                    <input type="text" name="name" id="ebook-form-name" class="form-control" aria-label="ebook-form-name" aria-describedby="basic-addon1" placeholder="Your Name" required>
+
+                                <span class="input-group-text" id="basic-addon1">
+                                        <i class="custom-form-icon bi-person"></i>
+                                        </span>
+                                    </div>
+
+                                <div class="input-group mb-4">
+                                        <input type="email" name="email" id="ebook-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@email.com" aria-label="ebook-form-email" aria-describedby="basic-addon2" required="">
+
+                                <span class="input-group-text" id="basic-addon2">
+                                        <i class="custom-form-icon bi-envelope"></i>
+                                </span>
+                     </div>
+
+                                   <div class="col-lg-8 col-md-10 col-8 mx-auto">
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <!-- Custom Confirmation / Success Page -->
+            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+            <button type="submit" class="form-control">Submit Form</button>
+        </div>
+    </div>
+</form>
                         </div>
 
                         <div class="col-lg-6 col-12">
