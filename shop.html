@@ -35,6 +35,13 @@
                         <img src="images/prem path logo 2.png" class="navbar-brand-icon" alt="Prempath Publication Logo" style="max-height: 100%; max-width: 100%;">
                     </a>
 
+                    <div class="d-lg-none ms-auto me-3">
+                        <a href="#order-section" class="btn custom-btn custom-border-btn btn-naira btn-inverted">
+                            <i class="btn-icon bi-cart"></i>
+                            <span>Order Now</span>
+                        </a>
+                    </div>
+    
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -44,56 +51,90 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#section_2">Books</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#section_3">Author</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#section_4">Reviews</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#section_5">Contact</a>
+                            </li>
                         </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="#order-section" class="btn custom-btn custom-border-btn btn-naira btn-inverted">
+                                <i class="btn-icon bi-cart"></i>
+                                <span>Shop Here</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </nav>
 
-            <section class="book-section section-padding">
+            <section class="section-padding" id="order-section" style="background-color: #ffffff;">
                 <div class="container">
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-lg-6 col-12">
-                            <img src="images/cover.jpg" class="img-fluid" alt="Book Cover">
+                            <img src="images/cover.jpg" class="img-fluid mb-4" alt="Book Cover" style="max-height: 500px;">
                         </div>
-
                         <div class="col-lg-6 col-12">
-                            <div class="book-section-info">
+                            <div style="background-color: #ffffff; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1);" class="p-4">
                                 <h2 class="mb-4">How to Order</h2>
-
-                                <div class="custom-block bg-white shadow-lg">
-                                    <h5 class="mb-4">Order through Amazon</h5>
-                                    <p>Visit our Amazon store to order your copy:</p>
-                                    <a href="https://www.amazon.in/s?i=stripbooks&rh=p_27%3AAparimay%2BShyam%2BDas&ref=dp_byline_sr_book_1" class="btn custom-btn mt-2 mb-3">
-                                        <i class="bi-cart"></i> Buy on Amazon
+                                <div class="ordering-steps" style="background-color: #ffffff;">
+                                    <ol class="list-unstyled" style="counter-reset: item;">
+                                        <li class="mb-3" style="counter-increment: item;">
+                                            <span style="color: #E76F51; font-weight: bold; margin-right: 10px;">#1.</span>
+                                            <i class="bi-whatsapp me-2 text-success"></i>
+                                            WhatsApp us at <strong><a href="https://wa.me/919651111108" class="text-success">+91-96511-11108</a></strong>
+                                        </li>
+                                        <li class="mb-3" style="counter-increment: item;">
+                                            <span style="color: #E76F51; font-weight: bold; margin-right: 10px;">#2.</span>
+                                            <i class="bi-pencil me-2"></i>
+                                            Share the following details:
+                                            <ul style="list-style-type: none; padding-left: 35px; margin-top: 10px;">
+                                                <li style="margin-bottom: 5px;">• Your Name</li>
+                                                <li style="margin-bottom: 5px;">• Complete Delivery Address</li>
+                                                <li style="margin-bottom: 5px;">• Number of Books Required</li>
+                                            </ul>
+                                        </li>
+                                        <li class="mb-3" style="counter-increment: item;">
+                                            <span style="color: #E76F51; font-weight: bold; margin-right: 10px;">#3.</span>
+                                            <i class="bi-currency-rupee me-2"></i>
+                                            Make the payment using:
+                                            <ul style="list-style-type: none; padding-left: 35px; margin-top: 10px;">
+                                                <li style="margin-bottom: 5px;">• UPI</li>
+                                                <li style="margin-bottom: 5px;">• Net Banking</li>
+                                            </ul>
+                                        </li>
+                                        <li class="mb-3" style="counter-increment: item;">
+                                            <span style="color: #E76F51; font-weight: bold; margin-right: 10px;">#4.</span>
+                                            <i class="bi-receipt me-2"></i>
+                                            Share the payment receipt/screenshot on WhatsApp
+                                        </li>
+                                        <li class="mb-3" style="counter-increment: item;">
+                                            <span style="color: #E76F51; font-weight: bold; margin-right: 10px;">#5.</span>
+                                            <i class="bi-box-seam me-2"></i>
+                                            Your order will be processed and shipped
+                                        </li>
+                                        <li style="counter-increment: item;">
+                                            <span style="color: #E76F51; font-weight: bold; margin-right: 10px;">#6.</span>
+                                            <i class="bi-truck me-2"></i>
+                                            Courier tracking details will be shared on your WhatsApp
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="text-center mt-4">
+                                    <a href="https://wa.me/919651111108" class="btn custom-btn">
+                                        <i class="bi-whatsapp me-2"></i> Order via WhatsApp
                                     </a>
-                                </div>
-
-                                <div class="custom-block bg-white shadow-lg mt-4">
-                                    <h5 class="mb-4">Bulk Orders</h5>
-                                    <p>For bulk orders, please contact us:</p>
-                                    <ul class="list-unstyled">
-                                        <li class="mb-2">
-                                            <i class="bi-telephone me-2"></i>
-                                            <a href="tel:+919651111108" class="text-dark">+91-96511-11108</a>
-                                        </li>
-                                        <li class="mb-2">
-                                            <i class="bi-envelope me-2"></i>
-                                            <a href="mailto:contact@prempathpublication.com" class="text-dark">contact@prempathpublication.com</a>
-                                        </li>
-                                        <li>
-                                            <i class="bi-envelope me-2"></i>
-                                            <a href="mailto:prempathpublication@gmail.com" class="text-dark">prempathpublication@gmail.com</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="custom-block bg-white shadow-lg mt-4">
-                                    <h5 class="mb-4">Book Details</h5>
-                                    <ul class="list-unstyled">
-                                        <li class="mb-2"><strong>Title:</strong> भक्ति-सनातन का आधार</li>
-                                        <li class="mb-2"><strong>Author:</strong> H.G Aparimay Shyam Das Ji</li>
-                                        <li class="mb-2"><strong>Language:</strong> Hindi</li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
